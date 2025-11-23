@@ -5,7 +5,7 @@ export const options = {
     stages: [
         { duration: '30s', target: 10 },   // Carga baixa inicial
         { duration: '10s', target: 300 },  // Aumento súbito (pico)
-        { duration: '1m', target: 300 },   // Mantém o pico por 1 minuto
+        { duration: '1m', target: 4000 },   // Mantém o pico por 1 minuto
         { duration: '10s', target: 10 },   // Queda rápida
         { duration: '30s', target: 10 },   // Recuperação (pós-pico)
     ],
